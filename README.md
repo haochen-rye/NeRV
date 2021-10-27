@@ -12,7 +12,7 @@ This is the official implementation of the paper "NeRV: Neural Representations f
 
 
 ## Get started
-You can set up a conda environment with all dependencies like so:
+We run with Python 3.8, you can set up a conda environment with all dependencies like so:
 ```
 pip install -r requirements.txt 
 ```

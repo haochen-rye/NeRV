@@ -119,7 +119,7 @@ def MLP(dim_list, act='relu', bias=True):
     return nn.Sequential(*fc_list)
 
 
-class NerfBlock(nn.Module):
+class NeRVBlock(nn.Module):
     def __init__(self, **kargs):
         super().__init__()
 
@@ -153,7 +153,7 @@ class Generator(nn.Module):
                 new_ngf = max(ngf // (1 if stride == 1 else kargs['reduction']), kargs['lower_width'])
 
             for j in range(kargs['num_blocks']):
-                self.layers.append(NerfBlock(ngf=ngf, new_ngf=new_ngf, stride=1 if j else stride,
+                self.layers.append(NeRVBlock(ngf=ngf, new_ngf=new_ngf, stride=1 if j else stride,
                     bias=kargs['bias'], norm=kargs['norm'], act=kargs['act'], conv_type=kargs['conv_type']))
                 ngf = new_ngf
 

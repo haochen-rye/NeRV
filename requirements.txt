@@ -1,8 +1,9 @@
-torch==1.8.2+cu102
+torch==1.8
 numpy==1.19.2
 pytorch_msssim==0.2.1
 tqdm==4.59.0
-torchvision==0.9.2+cu102
+torchvision==0.9
 dahuffman==0.4.1
 Pillow==8.4.0
 yaspin==2.1.0
+tesnsorboard
