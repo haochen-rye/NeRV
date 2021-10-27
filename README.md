@@ -21,9 +21,9 @@ pip install -r requirements.txt
 The code is organized as follows:
 * train_nerv.py includes a generic traiing routine.
 * model_nerv.py contains the dataloader and neural network architecure 
-* video/imae dataset in data directory, we provide big buck bunny here
-* checkpoint directory contains some pre-trained model on big buck bunny dataset
-
+* data/ directory video/imae dataset, we provide big buck bunny here
+* checkpoint/ directory contains some pre-trained model on big buck bunny dataset
+* log files (tensorboard, txt, state_dict etc.) will be saved in output directory (specified by ```--outf```)
 
 ## Reproducing experiments
 
