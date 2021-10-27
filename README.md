@@ -26,7 +26,6 @@ The code is organized as follows:
 
 
 ## Reproducing experiments
-The directory `experiment_scripts` contains one script per experiment in the paper.
 
 ### Training experiments
 The NeRV-S experiment on 'big buck bunny' can be reproduced with
