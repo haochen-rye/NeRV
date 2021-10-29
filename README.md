@@ -79,7 +79,7 @@ python train_nerv.py -e 100   --lower-width 96 --num-blocks 1 --dataset bunny --
 
 ```
 
-### Distrotion-Compression results
+### Distrotion-Compression result
 The final bits-per-pixel (bpp) is computed by $$Model\_Parameter * (1 - Prune\_Ratio) * Quant\_Bit / Pixel\_Num$$.
 We provide numerical results for distortion-compression (Figure 7, 8 and 11) at [psnr_bpp_results.csv](./checkpoints/psnr_bpp_results.csv) .
 
