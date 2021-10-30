@@ -3,10 +3,10 @@
 
 
 [Hao Chen](https://haochen-rye.github.io),
-[Bo He](),
-[Hanyu Wang](),
-[Yixuan Ren](),
-[Ser-Nam Lim](),
+Bo He,
+Hanyu Wang,
+Yixuan Ren,
+Ser-Nam Lim],
 [Abhinav Shrivastava](https://www.cs.umd.edu/~abhinav/)<br>
 This is the official implementation of the paper "NeRV: Neural Representations for Videos ".
 
@@ -22,7 +22,7 @@ The code is organized as follows:
 * [train_nerv.py](./train_nerv.py) includes a generic traiing routine.
 * [model_nerv.py](./model_nerv.py) contains the dataloader and neural network architecure 
 * [data/](./data) directory video/imae dataset, we provide big buck bunny here
-* [checkpoint/](./checkpoint) directory contains some pre-trained model on big buck bunny dataset
+* [checkpoints/](./checkpoints) directory contains some pre-trained model on big buck bunny dataset
 * log files (tensorboard, txt, state_dict etc.) will be saved in output directory (specified by ```--outf```)
 
 ## Reproducing experiments
