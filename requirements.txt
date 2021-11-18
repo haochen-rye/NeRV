@@ -6,4 +6,4 @@ torchvision==0.9
 dahuffman==0.4.1
 Pillow==8.4.0
 yaspin==2.1.0
-tesnsorboard
+tensorboard
