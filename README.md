@@ -46,8 +46,8 @@ python train_nerv.py -e 300   --lower-width 96 --num-blocks 1 --dataset bunny --
     --weight checkpoints/nerv_S.pth --eval_only 
 ```
 
-### Dump predictions with pre-trained model 
-To evaluate pre-trained model, just add --eval_Only and specify model path with ```--weight```
+### Decoding: Dump predictions with pre-trained model 
+To dump predictions with pre-trained model, just add ```--dump_images``` besides ```--eval_Only``` and specify model path with ```--weight```
 ```
 python train_nerv.py -e 300   --lower-width 96 --num-blocks 1 --dataset bunny --frame_gap 1 \
     --outf bunny_ab --embed 1.25_40 --stem_dim_num 512_1  --reduction 2  --fc_hw_dim 9_16_26 --expansion 1  \
