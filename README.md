@@ -28,7 +28,7 @@ The code is organized as follows:
 ## Reproducing experiments
 
 ### Training experiments
-The NeRV-S experiment on 'big buck bunny' can be reproduced with
+The NeRV-S experiment on 'big buck bunny' can be reproduced with, NeRV-M and NeRV-L with ```9_16_58``` and ```9_16_112``` for ```fc_hw_dim``` respectively.
 ```
 python train_nerv.py -e 300   --lower-width 96 --num-blocks 1 --dataset bunny --frame_gap 1 \
     --outf bunny_ab --embed 1.25_40 --stem_dim_num 512_1  --reduction 2  --fc_hw_dim 9_16_26 --expansion 1  \
