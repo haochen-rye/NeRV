@@ -11,7 +11,7 @@ Ser-Nam Lim],
 This is the official implementation of the paper "NeRV: Neural Representations for Videos ".
 
 ## Method overview
-<img src="https://i.imgur.com/OTdHe6r.png" width="480"  />
+<img src="https://i.imgur.com/OTdHe6r.png" width="560"  />
 
 ## Get started
 We run with Python 3.8, you can set up a conda environment with all dependencies like so:
