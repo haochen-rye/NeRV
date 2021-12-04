@@ -1,5 +1,5 @@
 # NeRV: Neural Representations for Videos  (NeurIPS 2021)
-### [Project Page](TODO) | [Paper](https://arxiv.org/abs/2110.13903) | [UVG Data](http://ultravideo.fi/#testsequences) 
+### [Project Page](https://haochen-rye.github.io/NeRV) | [Paper](https://arxiv.org/abs/2110.13903) | [UVG Data](http://ultravideo.fi/#testsequences) 
 
 
 [Hao Chen](https://haochen-rye.github.io),
@@ -10,6 +10,8 @@ Ser-Nam Lim],
 [Abhinav Shrivastava](https://www.cs.umd.edu/~abhinav/)<br>
 This is the official implementation of the paper "NeRV: Neural Representations for Videos ".
 
+## Method overview
+<img src="https://i.imgur.com/OTdHe6r.png" width="480"  />
 
 ## Get started
 We run with Python 3.8, you can set up a conda environment with all dependencies like so:
