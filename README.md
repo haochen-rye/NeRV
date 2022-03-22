@@ -67,7 +67,7 @@ python train_nerv.py -e 100   --lower-width 96 --num-blocks 1 --dataset bunny --
     --outf prune_ab --embed 1.25_40 --stem_dim_num 512_1  --reduction 2  --fc_hw_dim 9_16_26 --expansion 1  \
     --single_res --loss Fusion6   --warmup 0. --lr_type cosine  --strides 5 2 2 2 2  --conv_type conv \
     -b 1  --lr 0.0005 --norm none --suffix 107  --act swish \
-    --weight checkpoints/nerv_S.pth --not_resume_epoch --prune_ratio 0.4 --debug
+    --weight checkpoints/nerv_S.pth --not_resume_epoch --prune_ratio 0.4 
 ```
 
 ### Evaluate the pruned model
