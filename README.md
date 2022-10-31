@@ -90,7 +90,7 @@ If you find our work useful in your research, please cite:
 ```
 @inproceedings{hao2021nerv,
     author = {Hao Chen, Bo He, Hanyu Wang, Yixuan Ren, Ser-Nam Lim, Abhinav Shrivastava },
-    title = {NeRV: Neural Representations for Videos s},
+    title = {NeRV: Neural Representations for Videos},
     booktitle = {NeurIPS},
     year={2021}
 }
