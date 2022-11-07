@@ -89,10 +89,10 @@ We provide numerical results for distortion-compression (Figure 7, 8 and 11) at 
 If you find our work useful in your research, please cite:
 ```
 @inproceedings{hao2021nerv,
-    author = {Hao Chen, Bo He, Hanyu Wang, Yixuan Ren, Ser-Nam Lim, Abhinav Shrivastava },
-    title = {NeRV: Neural Representations for Videos},
-    booktitle = {NeurIPS},
-    year={2021}
+ author = {Chen, Hao and He, Bo and Wang, Hanyu and Ren, Yixuan and Lim, Ser Nam and Shrivastava, Abhinav},
+ booktitle = {NeurIPS},
+ title = {NeRV: Neural Representations for Videos},
+ year = {2021}
 }
 ```
 
