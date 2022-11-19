@@ -10,6 +10,8 @@ Ser-Nam Lim],
 [Abhinav Shrivastava](https://www.cs.umd.edu/~abhinav/)<br>
 This is the official implementation of the paper "NeRV: Neural Representations for Videos ".
 
+## 🔥 A better codebase is released based on [HNeRV](https://github.com/haochen-rye/HNeRV).
+
 ## Method overview
 <img src="https://i.imgur.com/OTdHe6r.png" width="560"  />
 
