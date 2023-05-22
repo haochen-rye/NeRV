@@ -123,8 +123,8 @@ def main():
 
     args.outf = os.path.join(args.outf, exp_id)
     if args.overwrite and os.path.isdir(args.outf):
-    	print('Will overwrite the existing output dir!')
-    	shutil.rmtree(args.outf)
+        print('Will overwrite the existing output dir!')
+        shutil.rmtree(args.outf)
 
     if not os.path.isdir(args.outf):
         os.makedirs(args.outf)
