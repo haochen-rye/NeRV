@@ -85,7 +85,7 @@ python train_nerv.py -e 100   --lower-width 96 --num-blocks 1 --dataset bunny --
 
 ### Distrotion-Compression result
 The final bits-per-pixel (bpp) is computed by $$ModelParameter * (1 - ModelSparsity) * QuantBit / PixelNum$$.
-We provide numerical results for distortion-compression (Figure 7, 8 and 11) at [this csv file](./checkpoints/psnr_bpp_results.csv) .
+* We provide numerical results for distortion-compression for UVG and MCL at [this csv file](./checkpoints/psnr_bpp_results.csv) in ./checkpoints.
 
 ## Citation
 If you find our work useful in your research, please cite:
