@@ -23,9 +23,9 @@ pip install -r requirements.txt
 
 ## High-Level structure
 The code is organized as follows:
-* [train_nerv.py](./train_nerv.py) includes a generic traiing routine.
-* [model_nerv.py](./model_nerv.py) contains the dataloader and neural network architecure 
-* [data/](./data) directory video/imae dataset, we provide big buck bunny here
+* [train_nerv.py](./train_nerv.py) includes a generic training routine.
+* [model_nerv.py](./model_nerv.py) contains the dataloader and neural network architecture 
+* [data/](./data) directory video/image dataset, we provide big buck bunny here
 * [checkpoints/](./checkpoints) directory contains some pre-trained model on big buck bunny dataset
 * log files (tensorboard, txt, state_dict etc.) will be saved in output directory (specified by ```--outf```)
 
